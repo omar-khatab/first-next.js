@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
       {/* here make nav bar to move between pages and will show in all pages that inside the app folder */}
       <nav style={{width: "100%", backgroundColor: "teal", display : "flex", 
         justifyContent : "center" , alignItems: "center", gap: "20px" , padding : "10px" , fontSize: "35px"}}>
+          {/* link tag to move between pages(components) */}
         <Link href="/">Home</Link>
         <Link href="/posts">Posts</Link>
         <Link href="/Articles">Article</Link>
